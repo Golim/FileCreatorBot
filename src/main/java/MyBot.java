@@ -112,8 +112,7 @@ public class MyBot extends TelegramLongPollingBot {
     public String getBotToken() {
         String token = System.getenv("telegram_bot_token");
         //Token per lo sviluppo del bot
-        return "448031999:AAHiFVqB6owyxS0YbBwqnvqY8AYPCHvhHeY";
-        //return token;
+        return token;
     }
 
 }
