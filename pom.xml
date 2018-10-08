@@ -6,14 +6,15 @@
 
     <groupId>groupId</groupId>
     <artifactId>FileCreatorBot</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <version>1.0</version>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.telegram/telegrambots -->
         <dependency>
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots</artifactId>
             <version>3.5</version>
         </dependency>
+    
     </dependencies>
 
 </project>

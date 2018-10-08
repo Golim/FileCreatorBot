@@ -1,6 +1,7 @@
+package golim.filecreatorbot;
+
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.TelegramBotsApi;
-import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 public class Bot {
@@ -16,9 +17,6 @@ public class Bot {
             botsApi.registerBot(new MyBot()); //Registra il bot con gli attributi
 
         }catch (TelegramApiException e) {
-
-            e.printStackTrace();
-
         }
 
     }
